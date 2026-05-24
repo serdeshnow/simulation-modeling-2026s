@@ -4,7 +4,7 @@
 	         AnyLogic Project File
 *************************************************
 -->
-<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.9.8.202602271012" AlpVersion="8.9.7">
+<AnyLogicWorkspace WorkspaceVersion="1.9" AnyLogicVersion="8.9.8.202602271018" AlpVersion="8.9.7">
 <Model>
 	<Id>1743495806521</Id>
 	<Name><![CDATA[VirusCity4]]></Name>
@@ -332,7 +332,7 @@ for (int i = 0; i < population.size(); i++) {
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[0.1]]></Code>
+							<Code><![CDATA[0.10]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1779033946183</Id>
@@ -476,7 +476,7 @@ for (int i = 0; i < population.size(); i++) {
 						<UnitType><![CDATA[NONE]]></UnitType>
 						<SdArray>false</SdArray>
 						<DefaultValue Class="CodeValue">
-							<Code><![CDATA[21]]></Code>
+							<Code><![CDATA[14]]></Code>
 						</DefaultValue>
 						<ParameterEditor>
 							<Id>1779033946207</Id>
@@ -1426,7 +1426,7 @@ return c;]]></Body>
 					</BasicProperties>
 					<ExtendedProperties>
 						<Font Name="Dialog" Size="11" Style="0"/>
-						<LabelText><![CDATA[Карантин с 30-го дня]]></LabelText>
+						<LabelText><![CDATA[Карантин с 14-го дня]]></LabelText>
 						<DefaultValueCode><![CDATA[quarantineEnabled]]></DefaultValueCode>
 						<LinkTo>true</LinkTo>
 						<Link>quarantineEnabled</Link>
@@ -2565,7 +2565,7 @@ return c;]]></Body>
 				<Variable Class="PlainVariable">
 					<Id>1779382183402</Id>
 					<Name><![CDATA[homeX]]></Name>
-					<X>210</X><Y>520</Y>
+					<X>210</X><Y>560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2580,7 +2580,7 @@ return c;]]></Body>
 				<Variable Class="PlainVariable">
 					<Id>1779382200771</Id>
 					<Name><![CDATA[homeY]]></Name>
-					<X>210</X><Y>540</Y>
+					<X>210</X><Y>580</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2918,7 +2918,7 @@ willBeAsymptomatic = randomTrue(((Main)get_Main()).asymptomaticProbability);]]><
 					<ReturnType><![CDATA[boolean]]></ReturnType>
 					<Id>1779009136772</Id>
 					<Name><![CDATA[isInfectious]]></Name>
-					<X>30</X><Y>520</Y>
+					<X>30</X><Y>560</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2930,7 +2930,7 @@ willBeAsymptomatic = randomTrue(((Main)get_Main()).asymptomaticProbability);]]><
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009160719</Id>
 					<Name><![CDATA[receiveInfection]]></Name>
-					<X>30</X><Y>560</Y>
+					<X>30</X><Y>600</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2963,7 +2963,7 @@ if (place == 0) {
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009192335</Id>
 					<Name><![CDATA[forceInitialInfection]]></Name>
-					<X>30</X><Y>600</Y>
+					<X>30</X><Y>520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -2981,7 +2981,7 @@ if (place == 0) {
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009192358</Id>
 					<Name><![CDATA[placeAtHome]]></Name>
-					<X>210</X><Y>640</Y>
+					<X>410</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3001,7 +3001,7 @@ setXY(homeX, homeY);]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009214047</Id>
 					<Name><![CDATA[placeAtWork]]></Name>
-					<X>210</X><Y>680</Y>
+					<X>410</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3014,7 +3014,7 @@ setXY(uniform(300, 700), uniform(190, 430));]]></Body>
 					<ReturnType><![CDATA[boolean]]></ReturnType>
 					<Id>1779009214073</Id>
 					<Name><![CDATA[shouldGoToWork]]></Name>
-					<X>30</X><Y>680</Y>
+					<X>210</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3043,7 +3043,7 @@ return true;]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009214084</Id>
 					<Name><![CDATA[updateDailyLocation]]></Name>
-					<X>30</X><Y>720</Y>
+					<X>30</X><Y>680</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3059,7 +3059,7 @@ return true;]]></Body>
 // Столовая с 13:00 до 14:00.
 // Все живые жители идут туда независимо от того,
 // должны они быть дома, на работе или на прогулке.
-if (hour >= 13 && hour < 14) {
+if (hour >= 13 && hour < 14 && shouldGoToCanteen()) {
     placeAtCanteen();
     return;
 }
@@ -3108,7 +3108,7 @@ placeAtHome();]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779009214091</Id>
 					<Name><![CDATA[tryInfectNeighbors]]></Name>
-					<X>30</X><Y>760</Y>
+					<X>30</X><Y>640</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3152,7 +3152,7 @@ for (int i = 0; i < m.population.size(); i++) {
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779378573462</Id>
 					<Name><![CDATA[placeOutside]]></Name>
-					<X>210</X><Y>760</Y>
+					<X>410</X><Y>760</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3166,7 +3166,7 @@ setXY(uniform(200, 800), uniform(700, 1100));]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779382088445</Id>
 					<Name><![CDATA[initHomePosition]]></Name>
-					<X>30</X><Y>640</Y>
+					<X>210</X><Y>520</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3199,7 +3199,7 @@ setXY(uniform(200, 800), uniform(700, 1100));]]></Body>
 					<ReturnType><![CDATA[double]]></ReturnType>
 					<Id>1779628582880</Id>
 					<Name><![CDATA[placeAtCanteen]]></Name>
-					<X>210</X><Y>720</Y>
+					<X>410</X><Y>720</Y>
 					<Label><X>10</X><Y>0</Y></Label>
 					<PublicFlag>false</PublicFlag>
 					<PresentationFlag>true</PresentationFlag>
@@ -3208,6 +3208,35 @@ setXY(uniform(200, 800), uniform(700, 1100));]]></Body>
 
 // Столовая Canteen
 setXY(uniform(400, 600), uniform(530, 650));]]></Body>
+				</Function>
+				<Function AccessType="default" StaticFunction="false">
+					<ReturnModificator>RETURNS_VALUE</ReturnModificator>
+					<ReturnType><![CDATA[boolean]]></ReturnType>
+					<Id>1779660095604</Id>
+					<Name><![CDATA[shouldGoToCanteen]]></Name>
+					<X>210</X><Y>710</Y>
+					<Label><X>10</X><Y>0</Y></Label>
+					<PublicFlag>false</PublicFlag>
+					<PresentationFlag>true</PresentationFlag>
+					<ShowLabel>true</ShowLabel>
+					<Body><![CDATA[Main m = (Main)get_Main();
+
+if (healthState == 5) {
+    return false;
+}
+
+// Симптомный больной может остаться дома
+if (healthState == 2 && symptomaticStaysHome) {
+    return false;
+}
+
+// Карантин с 30-го дня:
+// в столовую ходят только бессимптомные, потому что они не знают о болезни
+if (m.quarantineEnabled && time() >= m.quarantineStartDay * 24) {
+    return healthState == 4 || healthState == 3 || healthState == 1 || healthState == 0;
+}
+
+return true;]]></Body>
 				</Function>
 			</Functions>
 			<AgentLinks>
