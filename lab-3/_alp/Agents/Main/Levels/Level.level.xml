@@ -1789,8 +1789,8 @@
 	<TimePlot>
 		<Id>1776855016053</Id>
 		<Name><![CDATA[plot3]]></Name>
-		<X>1950</X>
-		<Y>570</Y>
+		<X>-820</X>
+		<Y>565</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -1913,8 +1913,8 @@
 	<Text>
 		<Id>1776855209441</Id>
 		<Name><![CDATA[text30]]></Name>
-		<X>1965</X>
-		<Y>550</Y>
+		<X>-780</X>
+		<Y>555</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -1938,8 +1938,8 @@
 	<TimePlot>
 		<Id>1776855308149</Id>
 		<Name><![CDATA[plot4]]></Name>
-		<X>2320</X>
-		<Y>585</Y>
+		<X>-420</X>
+		<Y>565</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2062,8 +2062,8 @@
 	<TimePlot>
 		<Id>1776855393575</Id>
 		<Name><![CDATA[plot5]]></Name>
-		<X>2110</X>
-		<Y>880</Y>
+		<X>-620</X>
+		<Y>835</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2186,8 +2186,8 @@
 	<Text>
 		<Id>1776855446952</Id>
 		<Name><![CDATA[text31]]></Name>
-		<X>2340</X>
-		<Y>550</Y>
+		<X>-380</X>
+		<Y>555</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2211,8 +2211,8 @@
 	<Text>
 		<Id>1776855452115</Id>
 		<Name><![CDATA[text32]]></Name>
-		<X>2165</X>
-		<Y>850</Y>
+		<X>-580</X>
+		<Y>825</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2236,8 +2236,8 @@
 	<TimePlot>
 		<Id>1776855492882</Id>
 		<Name><![CDATA[plot6]]></Name>
-		<X>2300</X>
-		<Y>0</Y>
+		<X>-420</X>
+		<Y>15</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2330,8 +2330,8 @@
 	<BarChart>
 		<Id>1776855492893</Id>
 		<Name><![CDATA[chart2]]></Name>
-		<X>1900</X>
-		<Y>250</Y>
+		<X>-820</X>
+		<Y>265</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2396,8 +2396,8 @@
 	<TimePlot>
 		<Id>1776855492898</Id>
 		<Name><![CDATA[plot7]]></Name>
-		<X>1900</X>
-		<Y>5</Y>
+		<X>-820</X>
+		<Y>20</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -2470,8 +2470,8 @@
 	<TimeStackChart>
 		<Id>1776855492904</Id>
 		<Name><![CDATA[chart3]]></Name>
-		<X>2300</X>
-		<Y>250</Y>
+		<X>-420</X>
+		<Y>265</Y>
 		<Label>
 			<X>0</X>
 			<Y>-10</Y>
@@ -4173,8 +4173,8 @@
 	<Control Type="Window3D">
 		<Id>1776857147010</Id>
 		<Name><![CDATA[window3d]]></Name>
-		<X>1300</X>
-		<Y>0</Y>
+		<X>-660</X>
+		<Y>-320</Y>
 		<Width>500</Width>
 		<Height>300</Height>
 		<MakeDefaultViewArea>true</MakeDefaultViewArea>
@@ -4184,7 +4184,36 @@
 		</Label>
 		<ShowLabel>false</ShowLabel>
 		<FollowCamera>false</FollowCamera>
-		<NavigationType>full</NavigationType>
+		<NavigationType>none</NavigationType>
 		<FarClippingDistance>2000</FarClippingDistance>
+		<Camera>camera1</Camera>
 	</Control>
+	<Camera3D>
+		<Id>1779652889117</Id>
+		<Name><![CDATA[camera1]]></Name>
+		<X>1400</X>
+		<Y>580</Y>
+		<Z>360</Z>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<ShowLabel>false</ShowLabel>
+		<RotationX>45.0</RotationX>
+		<RotationZ>225.0</RotationZ>
+	</Camera3D>
+	<Camera3D>
+		<Id>1779653067018</Id>
+		<Name><![CDATA[camera_up]]></Name>
+		<X>1250</X>
+		<Y>250</Y>
+		<Z>600</Z>
+		<Label>
+			<X>0</X>
+			<Y>-10</Y>
+		</Label>
+		<ShowLabel>false</ShowLabel>
+		<RotationX>90.0</RotationX>
+		<RotationZ>0.0</RotationZ>
+	</Camera3D>
 </Presentation>

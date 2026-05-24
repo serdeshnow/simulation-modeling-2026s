@@ -9,7 +9,7 @@
 	<Id>1743495806521</Id>
 	<Name><![CDATA[VirusCity4]]></Name>
 	<EngineVersion>6</EngineVersion>
-	<JavaPackageName><![CDATA[model4]]></JavaPackageName>
+	<JavaPackageName><![CDATA[virus_city]]></JavaPackageName>
 	<ModelTimeUnit><![CDATA[Hour]]></ModelTimeUnit>
 	<Folders>
 	</Folders>
@@ -851,12 +851,12 @@ return c;]]></Body>
 					<ShowLabel>true</ShowLabel>
 					<PresentationId>1779035544783</PresentationId>
 					<ActiveObjectClass>
-						<PackageName><![CDATA[model4]]></PackageName>
+						<PackageName><![CDATA[virus_city]]></PackageName>
 						<ClassName><![CDATA[Person]]></ClassName>
 					</ActiveObjectClass>
 					<GenericParameterSubstitute>
 						<GenericParameterSubstituteReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[Person]]></ClassName>
 							<ItemName><![CDATA[1743496742551]]></ItemName>
 						</GenericParameterSubstituteReference>
@@ -941,12 +941,12 @@ return c;]]></Body>
 									<EntityEmbeddedObject>
 										<Id>1779036507378</Id>
 										<ActiveObjectClass>
-											<PackageName><![CDATA[model4]]></PackageName>
+											<PackageName><![CDATA[virus_city]]></PackageName>
 											<ClassName><![CDATA[Person]]></ClassName>
 										</ActiveObjectClass>
 										<GenericParameterSubstitute>
 											<GenericParameterSubstituteReference>
-												<PackageName><![CDATA[model4]]></PackageName>
+												<PackageName><![CDATA[virus_city]]></PackageName>
 												<ClassName><![CDATA[Person]]></ClassName>
 												<ItemName><![CDATA[1743496742551]]></ItemName>
 											</GenericParameterSubstituteReference>
@@ -1781,7 +1781,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[kommunalka.jpeg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -1803,7 +1803,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[image3.png]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -1825,7 +1825,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[image4.png]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -1847,7 +1847,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[image5.png]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -2192,7 +2192,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[canteen.jpg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -2214,7 +2214,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[zavod.jpeg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -2236,7 +2236,7 @@ return c;]]></Body>
 					<Rotation>0.0</Rotation>
 					<ImageFiles>
 						<ImageResourceReference>
-							<PackageName><![CDATA[model4]]></PackageName>
+							<PackageName><![CDATA[virus_city]]></PackageName>
 							<ClassName><![CDATA[парк.jpg]]></ClassName>
 						</ImageResourceReference>
 					</ImageFiles>
@@ -3224,7 +3224,7 @@ setXY(uniform(400, 600), uniform(530, 650));]]></Body>
 					<AgentLinkBidirectional>true</AgentLinkBidirectional>
 					<MessageType><![CDATA[Object]]></MessageType>
 					<StatechartReference>
-						<PackageName><![CDATA[model4]]></PackageName>
+						<PackageName><![CDATA[virus_city]]></PackageName>
 						<ClassName><![CDATA[Person]]></ClassName>
 						<ItemName><![CDATA[statechart]]></ItemName>
 					</StatechartReference>
@@ -3247,7 +3247,7 @@ setXY(uniform(400, 600), uniform(530, 650));]]></Body>
 					<PresentationFlag>true</PresentationFlag>
 					<ShowLabel>true</ShowLabel>
 					<ActiveObjectClass>
-						<PackageName><![CDATA[model4]]></PackageName>
+						<PackageName><![CDATA[virus_city]]></PackageName>
 						<ClassName><![CDATA[Main]]></ClassName>
 					</ActiveObjectClass>
 				</ContainerLink>
